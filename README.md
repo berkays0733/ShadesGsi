@@ -7,10 +7,10 @@ Thanks for Erfan Abdi for his OwO tools
 Thanks for all perus "Jamie, YukoSky, HeliOS, ElytrA8" for all :)  
 Thanks VegaZS for his Java BoboBot  
 
-## Downloads "NipponGSIs"
-Download ported GSI's from here!: https://sourceforge.net/projects/nippongsi/files/  
-Join us in telegram!: https://t.me/nippongsi_support  
-For updates follow here!: https://t.me/nippongsi  
+## Downloads "ShadesGSIs"
+Download ported GSI's from here!: https://sourceforge.net/projects/berkay-gsi/files/ 
+Join us in telegram!: https://t.me/projectreblechat
+For updates follow here!: https://t.me/berkaygsis 
 
 ## Requirements
     Linux
