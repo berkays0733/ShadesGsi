@@ -9,7 +9,7 @@ Thanks VegaZS for his Java BoboBot
 
 ## Downloads "ShadesGSIs"
 Download ported GSI's from here!: https://sourceforge.net/projects/berkay-gsi/files/ 
-Join us in telegram!: https://t.me/projectreblechat
+Join us in telegram!: https://t.me/projectreblechat/
 For updates follow here!: https://t.me/berkaygsis 
 
 ## Requirements
