@@ -10,7 +10,7 @@ service persistentLogging /system/bin/logcat -v time -f /data/local/log
 
 on property:sys.boot_completed=0
     start persistentLogging
-    
+
 on property:sys.boot_completed=1
     stop persistentLogging
 
