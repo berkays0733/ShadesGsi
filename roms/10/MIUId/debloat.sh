@@ -3,7 +3,7 @@
 systempath=$1
 thispath=`cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd`
 
-# Nuke MIUI useless system apks
+# Nuke MIUI useless app apks
 rm -rf $1/app/Cit
 rm -rf $1/app/MiuiCompass
 rm -rf $1/app/MiuiVideoGlobal
@@ -31,6 +31,7 @@ rm -rf $1/app/MiuiAudioMonitor
 rm -rf $1/app/MiuiVideoPlayer
 rm -rf $1/app/Music2
 rm -rf $1/app/Photos
+rm -rf $1/app/SystemAppUpdater
 rm -rf $1/app/TranslationService
 rm -rf $1/app/Videos
 rm -rf $1/app/YouDaoEngine
@@ -50,6 +51,7 @@ rm -rf $1/app/FileExplorer_old
 rm -rf $1/app/Notes
 rm -rf $1/app/Netflix_activation
 rm -rf $1/app/IdMipay
+rm -rf $1/app/BTProductionLineTool
 rm -rf $1/app/IFAAService
 rm -rf $1/app/Notes
 rm -rf $1/app/XiaomiSimActivateService
@@ -70,27 +72,49 @@ rm -rf $1/app/MiGalleryLockscreen
 rm -rf $1/app/Traceur
 rm -rf $1/app/wps-lite
 rm -rf $1/app/CatcherPatch
+rm -rf $1/app/PrintSpooler
 rm -rf $1/app/VsimCore
 rm -rf $1/app/Protips
 rm -rf $1/app/SecureElement
+rm -rf $1/app/NQNfcNci
 rm -rf $1/app/XMSFKeeper
 rm -rf $1/app/CompanionDeviceManager
 rm -rf $1/app/Health
 rm -rf $1/app/AiAsstVision
 rm -rf $1/app/TSMClient
 rm -rf $1/app/XMCloudEngine
+rm -rf $1/app/AntHalService
+rm -rf $1/app/KSICibaEngine
+rm -rf $1/app/AutoRegistration
 rm -rf $1/app/AutoTest
 rm -rf $1/app/FM_TEST
+rm -rf $1/app/PrintRecommendationService
 rm -rf $1/app/MSA
 rm -rf $1/app/Qmmi
+rm -rf $1/app/UPTsmService
 rm -rf $1/app/cit
+rm -rf $1/app/MetokNLP
 rm -rf $1/app/MiuiSuperMarket
 rm -rf $1/app/Updater
+rm -rf $1/app/greenguard
+rm -rf $1/app/mab
+rm -rf $1/app/BuiltInPrintService
+rm -rf $1/app/GFManager
 rm -rf $1/app/VoiceTrigger
 rm -rf $1/app/GFTest
 rm -rf $1/app/ModemLog
 rm -rf $1/app/SensorTestTool
+rm -rf $1/app/mid_test
+rm -rf $1/app/GFTest1
+rm -rf $1/app/WMService
+rm -rf $1/app/Sar
+rm -rf $1/app/QColor
+rm -rf $1/app/QTIDiagServices
+rm -rf $1/app/GlobalLayout
+rm -rf $1/app/FrequentPhrase
 rm -rf $1/app/CameraTest
+
+# Nuke MIUI useless priv-app apks
 rm -rf $1/priv-app/Backup
 rm -rf $1/priv-app/Browser
 rm -rf $1/priv-app/Calendar
@@ -126,15 +150,22 @@ rm -rf $1/priv-app/ONS
 rm -rf $1/priv-app/StatementService
 rm -rf $1/priv-app/CtsShimPrivPrebuilt
 rm -rf $1/priv-app/LocalTransport
+rm -rf $1/priv-app/BuiltInPrintService
 rm -rf $1/priv-app/MiMover
 rm -rf $1/priv-app/QuickSearchBox
 rm -rf $1/priv-app/MiRecycle
+rm -rf $1/priv-app/CallLogBackup
+rm -rf $1/priv-app/FindDevice
 rm -rf $1/priv-app/CleanMaster
 rm -rf $1/priv-app/FusedLocation
 rm -rf $1/priv-app/MiuiAod
+rm -rf $1/priv-app/Shell
+rm -rf $1/priv-app/DMRegService
+rm -rf $1/priv-app/BlockedNumberProvider
 rm -rf $1/priv-app/MiGameCenterSDKService
 rm -rf $1/priv-app/MiRcs
 rm -rf $1/priv-app/NewHome
+rm -rf $1/priv-app/GlobalMinusScreen
 
 # Nuke MIUI useless data-app apks
 rm -rf $1/data-app/MiRadio
@@ -177,24 +208,36 @@ rm -rf $1/data-app/MiDrive
 rm -rf $1/data-app/com.eg.android.AlipayGphone
 rm -rf $1/data-app/MiCreditInStub
 
-# Nuke MIUI useless product apks
+# Nuke MIUI useless product/app apks
 rm -rf $1/product/app/Gmail2
 rm -rf $1/product/app/GoogleTTS
 rm -rf $1/product/app/Maps
 rm -rf $1/product/app/YouTube
 rm -rf $1/product/app/talkback
+rm -rf $1/product/app/CloudPrint2
 rm -rf $1/product/app/ModuleMetadataGoogle
+rm -rf $1/product/app/TrichromeLibrary
+rm -rf $1/product/app/DeviceInfo
+rm -rf $1/product/app/atfwd
+rm -rf $1/product/app/ModuleMetadata
 rm -rf $1/product/app/uceShimService
+rm -rf $1/product/app/xdivert
+rm -rf $1/product/app/aiasst_service
 rm -rf $1/product/app/CalendarGoogle
+rm -rf $1/product/app/QdcmFF
 rm -rf $1/product/app/Chrome
 rm -rf $1/product/app/ModuleMetadataGooglePrebuilt
 rm -rf $1/product/app/GoogleOne
+rm -rf $1/product/app/embms
+
+# Nuke MIUI useless product/priv-app apks
 rm -rf $1/product/priv-app/Velvet
 rm -rf $1/product/priv-app/CarrierServices
 rm -rf $1/product/priv-app/AndroidAutoStub
 rm -rf $1/product/priv-app/HotwordEnrollmentOKGoogleHEXAGON
 rm -rf $1/product/priv-app/Turbo
 rm -rf $1/product/priv-app/HotwordEnrollmentXGoogleHEXAGON
+rm -rf $1/product/priv-app/EmergencyInfo
 rm -rf $1/product/priv-app/GoogleAssistant
 rm -rf $1/product/priv-app/GoogleFeedback
 rm -rf $1/product/priv-app/QAS_DVC_MSP
