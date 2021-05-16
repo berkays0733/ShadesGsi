@@ -162,8 +162,7 @@ $romsdir/$sourcever/$romtype/$romtypename/debloat.sh "$systemdir/system" 2>/dev/
 
 # Start patching
 
-cp trebleRom.apk $systemdir/system/app
-cp telegram.apk $systemdir/system/app
+cp trebleRom.apk $systemdir/system/product/app
 $scriptsdir/fixsymlinks.sh "$systemdir/system" 2>/dev/null
 $scriptsdir/nukeABstuffs.sh "$systemdir/system" 2>/dev/null
 $prebuiltdir/vendor_vndk/make$sourcever.sh "$systemdir/system" 2>/dev/null
