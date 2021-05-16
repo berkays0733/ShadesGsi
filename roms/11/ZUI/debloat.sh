@@ -162,17 +162,17 @@ rm -rf $1/priv-app/ZuiGameHelper
 
 
 # ADD MORE DEBLOAT
-rm -rf $1/app/BasicDreams
-rm -rf $1/app/FMRadioService
-rm -rf $1/app/GooglePrintRecommendationService
-rm -rf $1/app/IfaaService
-rm -rf $1/app/LiveWallpapersPicker
-rm -rf $1/app/PacProcessor
-rm -rf $1/app/PrintSpooler
-rm -rf $1/app/SoterService
-rm -rf $1/app/Traceur
-rm -rf $1/app/ZuiAlarm
-rm -rf $1/app/ZuiFileManager
+rm -rf $1/system/app/BasicDreams
+rm -rf $1/system/app/FMRadioService
+rm -rf $1/system/app/GooglePrintRecommendationService
+rm -rf $1/system/app/app/IfaaService
+rmrm -rf $1/system/app/LiveWallpapersPicker
+rm -rf $1/system/app/app/PacProcessor
+rm -rf $1/system/app/app/PrintSpooler
+rm -rf $1/system/app/app/SoterService
+rm -rf $1/system/app/app/Traceur
+rm -rf $1/system/app/app/ZuiAlarm
+rm -rf $1/system/app/app/ZuiFileManager
 
 rm -rf $1/priv-app/BaiduNetworkLocation
 rm -rf $1/priv-app/BuiltInPrintService
