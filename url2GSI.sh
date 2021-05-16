@@ -9,7 +9,7 @@ PARTITIONS="system vendor cust odm oem factory product xrom systemex system_ext 
 AB=true
 AONLY=true
 MOUNTED=false
-CLEAN=false
+CLEAN=true
 
 usage()
 {
