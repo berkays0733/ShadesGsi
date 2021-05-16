@@ -174,23 +174,23 @@ rm -rf $1/system/app/app/Traceur
 rm -rf $1/system/app/app/ZuiAlarm
 rm -rf $1/system/app/app/ZuiFileManager
 
-rm -rf $1/priv-app/BaiduNetworkLocation
-rm -rf $1/priv-app/BuiltInPrintService
-rm -rf $1/priv-app/LenovoStore
-rm -rf $1/priv-app/LeVoiceAgent
-rm -rf $1/priv-app/LocalTransport
-rm -rf $1/priv-app/SetupWizard
-rm -rf $1/priv-app/PositionTravel
-rm -rf $1/priv-app/UFaceService
-rm -rf $1/priv-app/XuiEasySync
-rm -rf $1/priv-app/ZuiFileTransfer
-rm -rf $1/priv-app/ZuiFindMyPhone
-rm -rf $1/priv-app/ZuiGallery
-rm -rf $1/priv-app/ZuiGalleryWallpaperCropper
-rm -rf $1/priv-app/ZuiResolver
-rm -rf $1/priv-app/ZuiSecurity
-rm -rf $1/product/app/TrichromeLibrary
-rm -rf $1/product/priv-appapp/GmsCore
+rm -rf $1/system/priv-app/BaiduNetworkLocation
+rm -rf $1/system/priv-app/BuiltInPrintService
+rm -rf $1/system/priv-app/LenovoStore
+rm -rm -rf $1/system/priv-app/LeVoiceAgent
+rm -rf $1/system/priv-app/LocalTransport
+rm -rf $1/system/priv-app/SetupWizard
+rm -rf $1/system/priv-app/PositionTravel
+rm -rf $1/system/priv-app/UFaceService
+rm -rf $1/system/priv-app/XuiEasySync
+rm -rf $1/system/priv-app/ZuiFileTransfer
+rm -rf $1/system/priv-app/ZuiFindMyPhone
+rm -rf $1/system/priv-app/ZuiGallery
+rm -rf $1/system/priv-app/ZuiGalleryWallpaperCropper
+rm -rf $1/system/priv-app/ZuiResolver
+rm -rf $1/system/priv-app/ZuiSecurity
+rm -rf $1/system/product/app/TrichromeLibrary
+rm -rf $1/system/product/priv-appapp/GmsCore
 
 
 
