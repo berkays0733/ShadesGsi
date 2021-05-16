@@ -159,3 +159,40 @@ rm -rf $1/priv-app/AppDaily
 rm -rf $1/app/YTMusic
 rm -rf $1/media/video
 rm -rf $1/priv-app/ZuiGameHelper
+
+
+# ADD MORE DEBLOAT
+rm -rf $1/app/BasicDreams
+rm -rf $1/app/FMRadioService
+rm -rf $1/app/GooglePrintRecommendationService
+rm -rf $1/app/IfaaService
+rm -rf $1/app/LiveWallpapersPicker
+rm -rf $1/app/PacProcessor
+rm -rf $1/app/PrintSpooler
+rm -rf $1/app/SoterService
+rm -rf $1/app/Traceur
+rm -rf $1/app/ZuiAlarm
+rm -rf $1/app/ZuiFileManager
+
+rm -rf $1/priv-app/BaiduNetworkLocation
+rm -rf $1/priv-app/BuiltInPrintService
+rm -rf $1/priv-app/LenovoStore
+rm -rf $1/priv-app/LeVoiceAgent
+rm -rf $1/priv-app/LocalTransport
+rm -rf $1/priv-app/SetupWizard
+rm -rf $1/priv-app/PositionTravel
+rm -rf $1/priv-app/UFaceService
+rm -rf $1/priv-app/XuiEasySync
+rm -rf $1/priv-app/ZuiFileTransfer
+rm -rf $1/priv-app/ZuiFindMyPhone
+rm -rf $1/priv-app/ZuiGallery
+rm -rf $1/priv-app/ZuiGalleryWallpaperCropper
+rm -rf $1/priv-app/ZuiResolver
+rm -rf $1/priv-app/ZuiSecurity
+rm -rf $1/product/app/TrichromeLibrary
+rm -rf $1/product/priv-appapp/GmsCore
+
+
+
+
+
