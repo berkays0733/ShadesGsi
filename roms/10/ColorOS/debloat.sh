@@ -72,3 +72,65 @@ rm -rf $1/sysmd5.zip
 
 ### Bonus: Remove dump apks
 rm -rf $1/reserve/
+
+#ADD MORE DEBLOAT
+
+rm -rf $1/app/Athena
+rm -rf $1/app/Calculator2EU
+rm -rf $1/app/ColorScreenRecorder
+rm -rf $1/app/ColorEyeProtect
+rm -rf $1/app/ClockEU
+rm -rf $1/app/FloatAssistant
+rm -rf $1/app/FileManagerEU
+rm -rf $1/app/GoogleLatinInput
+rm -rf $1/app/HealthCheck
+rm -rf $1/app/HealthService
+rm -rf $1/app/HTMLViewer
+rm -rf $1/app/OppoChromeCustomizations
+rm -rf $1/app/OppoCompass2EU
+rm -rf $1/app/OppoDolbyService
+rm -rf $1/app/OppoEngineerCamera
+rm -rf $1/app/OppoEngineerMode
+rm -rf $1/app/OppoEngineerNetwork
+rm -rf $1/app/OppoGuardElf
+rm -rf $1/app/OppoMultiApp
+rm -rf $1/app/OppoWeather2EU
+rm -rf $1/app/OShare
+rm -rf $1/app/OsuLogin
+rm -rf $1/app/OTAEU
+rm -rf $1/app/OTAUIEU
+rm -rf $1/app/PrintSpooler
+rm -rf $1/app/RomUpdateEU
+
+rm -rf $1/priv-app/BlockedNumberProvider
+rm -rf $1/priv-app/com.app.m1remit-19365
+rm -rf $1/priv-app/com.google.android.apps.nbu.paisa.user-common_us
+rm -rf $1/priv-app/com.google.android.apps.walletnfcrel-common_us
+rm -rf $1/priv-app/com.korvac.liquid-19365
+rm -rf $1/priv-app/com.LogiaGroup.LogiaDeck-19365
+rm -rf $1/priv-app/com.m1.mym1-19365
+rm -rf $1/priv-app/com.singtel.mysingtel-19365
+rm -rf $1/priv-app/Contacts
+rm -rf $1/priv-app/deezer.android.app-19365
+rm -rf $1/priv-app/OppoGallery2EU
+rm -rf $1/priv-app/sg.gov.mnd.OneService-19365
+
+rm -rf $1/product/app/Chrome
+rm -rf $1/product/app/GoogleContacts
+rm -rf $1/product/app/GoogleContactsSyncAdapter
+rm -rf $1/product/app/Messages
+rm -rf $1/product/app/TrichromeLibrary
+rm -rf $1/product/app/xdivert
+
+rm -rf $1/product/priv-app/GoogleDialer
+rm -rf $1/preload/
+
+
+
+
+
+
+
+
+
+
