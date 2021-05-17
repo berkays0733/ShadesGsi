@@ -72,3 +72,38 @@ rm -rf $1/sysmd5.zip
 
 ### Bonus: Remove dump apks
 rm -rf $1/reserve/
+
+# Amy Debloat
+rm -rf $1/product/app/CalendarGoogle
+rm -rf $1/product/app/Chrome
+rm -rf $1/product/app/Gmail2
+rm -rf $1/product/app/Keep
+rm -rf $1/product/app/Maps
+rm -rf $1/product/app/talkback
+rm -rf $1/product/app/TrichromeLibrary
+rm -rf $1/product/app/WebViewGoogle
+rm -rf $1/product/app/YouTube
+rm -rf $1/product/priv-app/AndroidAutoStub
+rm -rf $1/product/priv-app/GoogleDialer
+rm -rf $1/product/priv-app/Wellbeing
+rm -rf $1/product/priv-app/Velvet
+rm -rf $1/app/Athena
+rm -rf $1/app/Calculator2EU
+rm -rf $1/app/ClockEU
+rm -rf $1/app/*netflix*
+rm -rf $1/app/FileManagerEU
+rm -rf $1/app/OppoCompass2EU
+rm -rf $1/app/*Weather*
+rm -rf $1/app/Wallpapers
+rm -rf $1/preload/com.google.android.apps.docs-9
+rm -rf $1/preload/com.google.android.apps.photos-9
+rm -rf $1/preload/com.google.android.apps.youtube.music-9
+rm -rf $1/preload/Email
+rm -rf $1/priv-app/deezer*
+rm -rf $1/priv-app/com.*
+rm -rf $1/priv-app/OppoGallery2*
+rm -rf $1/priv-app/sg.gov**
+rm -rf $1/app/OppoEngineerCamera
+rm -rf $1/app/com.google.android.apps.nbu.files*
+rm -rf $1/preload/com.google.android.videos*
+rm -rf $1/preload/com.google.android.apps.tachyon*
