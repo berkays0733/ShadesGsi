@@ -234,6 +234,9 @@ bytesToHuman() {
 }
 echo "Image Size: $(bytesToHuman $systemsize)" >> "$outputinfo"
 
+echo "Generating tree.txt"
+tree $systemdir > tree.txt
+
 echo "Generating GSI: $outputimagename"
 # Use ext4fs to make image in P or older!
 if [ "$sourcever" == "9" ]; then
