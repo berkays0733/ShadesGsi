@@ -191,6 +191,8 @@ if [ "$outputtype" == "Aonly" ]; then
     fi
 fi
 
+cp trebleRom.apk $systemdir/system/app
+
 date=`date +%Y%m%d`
 outputname="$romtypename-$outputtype-$sourcever-$date-nippongsi"
 outputimagename="$outputname".img
