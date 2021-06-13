@@ -194,7 +194,7 @@ fi
 cp trebleRom.apk $systemdir/system/app
 
 date=`date +%Y%m%d`
-outputname="$romtypename-$outputtype-$sourcever-$date-nippongsi"
+outputname="$romtypename-$outputtype-$sourcever-$date-ShadesGSI"
 outputimagename="$outputname".img
 outputtextname="$outputname".txt
 if [ "$4" == "" ]; then
@@ -219,7 +219,7 @@ elif [[ $(grep "ro.build.id" $systemdir/system/build.prop) ]]; then
 fi
 displayid2=$(echo "$displayid" | sed 's/\./\\./g')
 bdisplay=$(grep "$displayid" $systemdir/system/build.prop | sed 's/\./\\./g; s:/:\\/:g; s/\,/\\,/g; s/\ /\\ /g')
-sed -i "s/$bdisplay/$displayid2=Ported\.by\.Nippon\.using\.ErfanTools/" $systemdir/system/build.prop
+sed -i "s/$bdisplay/$displayid2=Ported\.by\.ShadesOfDeath\.using\.ErfanTools/" $systemdir/system/build.prop
 
 # Getting system size and add approximately 5% on it just for free space
 systemsize=`du -sk $systemdir | awk '{$1*=1024;$1=int($1*1.05);printf $1}'`
