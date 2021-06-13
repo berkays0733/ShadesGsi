@@ -65,6 +65,9 @@ rm -rf $1/product/priv-app/GoogleFeedback
 rm -rf $1/product/priv-app/LiveCaption
 rm -rf $1/product/priv-app/QAS_DVC_MSP
 rm -rf $1/product/priv-app/Velvet
+rm -rf $1/priv-app/OnePlusCamera
+rm -rf $1/priv-app/OnePlusGallery
+rm -rf $1/priv-app/Velvet
 rm -rf $1/reserve/OPNote
 rm -rf $1/reserve/SoundRecorder
 rm -rf $1/reserve/OPForum
@@ -81,3 +84,18 @@ rm -rf $1/reserve/JD
 rm -rf $1/reserve/Meituan
 rm -rf $1/reserve/NeteaseCloudmusic
 rm -rf $1/reserve/NeteaseMail
+
+# RIL FIX
+rm -rf $1/product/framework/op-telephony-common.jar
+
+# Drop OnePlus useless services
+rm -rf $1/app/LogKitSdService
+rm -rf $1/app/OEMLogKit
+rm -rf $1/app/OPBugReportLite
+rm -rf $1/app/OPCommonLogTool
+rm -rf $1/app/OPIntelliService
+rm -rf $1/app/OPTelephonyDiagnoseManager
+rm -rf $1/priv-app/Houston
+rm -rf $1/priv-app/OPAppCategoryProvider
+rm -rf $1/priv-app/OPDeviceManager
+rm -rf $1/priv-app/OPDeviceManagerProvider
